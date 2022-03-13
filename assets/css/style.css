@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header styling */
+header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #041E88;
+  color: #AF9CB0;
+}
+
+/* Navigation alignment */
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+/* Navigation links horizontal lining */
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Navigation link color */
+a {
+  color: #AF9CB0;
+  text-decoration: none;
+}
+
+/* Main image properties */
+.hero-image {
+  height: 850px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/ATLANTA-SKYLINE.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.hero-text {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 3px 3px #ff0000, -3px -3px #ff0000
+}
+
+#Ron-photo {
+  border-radius: 50%;
+  max-width: 50%;
+  height: 300px;
+  position: relative;
+  border: medium ridge #d1d1d1;
+  /* margin: 50%; */
+}
+
+/* Footer box and font format */
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Footer font size */
+.footer h2 {
+  font-size: 20px;
+}

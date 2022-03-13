@@ -8,14 +8,21 @@
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #041E88;
+  background-color: #0b0e33;
   color: #AF9CB0;
 }
 
 /* Navigation alignment */
-header h1 {
+header h3 {
   display: inline-block;
-  font-size: 48px;
+}
+
+/* Navigation font and positioning */
+header nav {
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
 }
 
 header nav ul {
@@ -38,29 +45,48 @@ a {
 .hero-image {
   height: 850px;
   width: 100%;
-  margin-bottom: 25px;
   background-image: url("../images/ATLANTA-SKYLINE.jpg");
   background-size: cover;
   background-position: center;
-  display: flex;
+}
+
+#Ron-photo {
+  border-radius: 50%;
+  height: 300px;
+  border: medium ridge #d1d1d1;
+  margin-left: 42%;
+  margin-top: 10%;
 }
 
 .hero-text {
   color: #ffffff;
   text-decoration: none;
-  text-shadow: 		-1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
+  text-shadow: 		-2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+  text-align: center;
+  top: 70%;
+  left: 50%;
 }
 
-#Ron-photo {
-  border-radius: 50%;
-  max-width: 50%;
-  height: 300px;
-  position: relative;
-  border: medium ridge #d1d1d1;
-  /* margin: 50%; */
+.content {
+  background-color: #0b0e33;
+  color: #AF9CB0;
+}
+
+.content .Info-Box {
+  padding: 25px;
+}
+
+.Info-Box strong {
+  font-size: 26px;
+
+}
+
+.Info-Box p {
+  font-size: 20px;
+
 }
 
 /* Footer box and font format */
@@ -73,5 +99,6 @@ a {
 
 /* Footer font size */
 .footer h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
+

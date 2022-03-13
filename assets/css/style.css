@@ -48,14 +48,16 @@ a {
   background-image: url("../images/ATLANTA-SKYLINE.jpg");
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
 }
 
 #Ron-photo {
   border-radius: 50%;
   height: 300px;
   border: medium ridge #d1d1d1;
-  margin-left: 42%;
-  margin-top: 10%;
+  /* margin-left: 42%; */
+  margin-top: 30%;
 }
 
 .hero-text {
@@ -66,8 +68,8 @@ a {
   -2px 2px 0 #000,
   2px 2px 0 #000;
   text-align: center;
-  top: 70%;
-  left: 50%;
+  /* top: 70%;
+  left: 50%; */
 }
 
 .content {
@@ -81,8 +83,7 @@ a {
 
 .Info-Box strong {
   font-size: 26px;
-
-}
+  padding-bottom: 10px;}
 
 .Info-Box p {
   font-size: 20px;

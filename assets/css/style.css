@@ -79,14 +79,14 @@ a {
 
 .content .Info-Box {
   padding: 25px;
-}
+  display: block;}
 
 .Info-Box strong {
   font-size: 26px;
-  padding-bottom: 10px;}
+}
 
 .Info-Box p {
-  font-size: 20px;
+  font-size: 22px;
 
 }
 

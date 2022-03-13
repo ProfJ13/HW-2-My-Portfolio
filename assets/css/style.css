@@ -8,8 +8,8 @@
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #0b0e33;
-  color: #AF9CB0;
+  background-color: #40553F;
+  color: #E7D6E8;
 }
 
 /* Navigation alignment */
@@ -37,7 +37,7 @@ header nav ul li {
 
 /* Navigation link color */
 a {
-  color: #AF9CB0;
+  color: #E7D6E8;
   text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ a {
 .hero-text {
   color: #ffffff;
   text-decoration: none;
-  text-shadow: 		-2px -2px 0 #000,
+  text-shadow: -2px -2px 0 #000,
   2px -2px 0 #000,
   -2px 2px 0 #000,
   2px 2px 0 #000;
@@ -73,21 +73,25 @@ a {
 }
 
 .content {
-  background-color: #0b0e33;
-  color: #AF9CB0;
+  background-color: #40553F;
+  color: #E7D6E8;
 }
 
 .content .Info-Box {
-  padding: 25px;
-  display: block;}
+  padding: 45px;
+  display: block;
+  text-align: center;
+}
 
-.Info-Box strong {
+/* Why is padding not working??? */
+.Info-Box h2 {
   font-size: 26px;
+  margin-bottom: 20px;
 }
 
 .Info-Box p {
   font-size: 22px;
-
+  padding-bottom: 25px;
 }
 
 /* Footer box and font format */

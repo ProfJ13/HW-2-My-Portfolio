@@ -75,6 +75,7 @@ a {
 .content {
   background-color: #40553F;
   color: #E7D6E8;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .content .Info-Box {
@@ -83,7 +84,6 @@ a {
   text-align: center;
 }
 
-/* Why is padding not working??? */
 .Info-Box h2 {
   font-size: 26px;
   margin-bottom: 20px;
@@ -91,6 +91,29 @@ a {
 
 .Info-Box p {
   font-size: 22px;
+  padding-bottom: 25px;
+}
+
+.Portfolio-Box {
+  margin-left: 5%;
+  padding-bottom: 25px;
+  display: flex;
+}
+
+.Portfolio-Box h2 {
+position: absolute;
+font-size: 30px;
+}
+
+.Portfolio-Box section {
+position: relative;
+}
+
+.Portfolio-Box #Lead-Project
+
+.Contact-Box {
+  text-align: right;
+  padding-right: 25px;
   padding-bottom: 25px;
 }
 

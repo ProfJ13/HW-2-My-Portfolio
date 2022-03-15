@@ -76,6 +76,10 @@ a {
   background-color: #40553F;
   color: #E7D6E8;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: linear-gradient(
+    #40553F 0%,
+    #e8dbd6 100%
+  );
 }
 
 .content .Info-Box {

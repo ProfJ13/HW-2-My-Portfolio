@@ -78,7 +78,7 @@ a {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-image: linear-gradient(
     #40553F 0%,
-    #e8dbd6 100%
+    #E7D6E8 100%
   );
 }
 
@@ -113,7 +113,7 @@ border-right: 3px solid#E7D6E8;
 font-size: 40px;
 padding-top: 10%;
 padding-right: 20px;
-padding-bottom: 300px;
+padding-bottom: 600px;
 }
 
 .Portfolio-Box section {
@@ -128,6 +128,8 @@ flex-wrap: wrap;
   height: 500px;
   width: 85%;
   flex-wrap: wrap;
+  border: medium ridge #424040;
+
 }
 
 #Lead-Project h3 {
@@ -141,6 +143,7 @@ flex-wrap: wrap;
   font-size: 40px;
   background-color:#E7D6E8;
   color: #40553F;
+  border-left: medium ridge #424040;
 }
 
 .Project {
@@ -188,11 +191,22 @@ flex-wrap: wrap;
   color: #40553F
 }
 
+.Project:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height:auto;
+  display:block;
+  z-index:999;
+}
+
 .Contact-Box {
   text-align: right;
   padding-right: 25px;
   padding-bottom: 25px;
   padding-top: 30px;
+  color: #40553F;
 }
 
 /* Footer box and font format */

@@ -8,6 +8,10 @@ body {
   width: 100%;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Header styling */
 header {
   padding: 20px;
@@ -101,12 +105,40 @@ a {
 }
 
 .Portfolio-Box, .Contact-Box {
-  flex-direction: row;
-  justify-content: space-between;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
 }
 
-.Project.Lead {
-  
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* .Project {
+  flex-basis: 200px;
+} */
+
+#OldProject {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.Project {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#Lead-Project {
+  background-image: url(../images/website-screenshot.png);
+  height: 300px;
+}
+
+.Project.Old {
+  height: 150px;
+  background-image: url(../images/coming-soon.jpg);
 }
 
 /* .content .Info-Box {

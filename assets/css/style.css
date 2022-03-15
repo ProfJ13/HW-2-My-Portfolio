@@ -122,19 +122,19 @@ flex-wrap: wrap;
 .Portfolio-Box #Lead-Project {
   background-image: url(../images/website-screenshot.png);
   height: 500px;
-  width: 80%;
+  width: 85%;
   flex-wrap: wrap;
 }
 
 #Lead-Project h3 {
   bottom: 20%;
-  left: 20%;
+  left: 15%;
   background-color: black;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
-  font-size: 35px;
+  font-size: 40px;
   background-color:#E7D6E8;
   color: #40553F;
 }
@@ -146,18 +146,26 @@ flex-wrap: wrap;
 #Old-Project {
   display: flex;
   justify-content: space-evenly;  
+  flex-direction: row;
   flex-wrap: wrap;
   padding-top: 24px;
 }
 
-.Old-Project {
+#Old-Project-1 {
   background-image: url(../images/coming-soon.jpg);
   width: 300px;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  position: relative;
 }
 
 #Old-Project-2 {
+  background-image: url(../images/coming-soon.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+#Old-Project-3 {
   background-image: url(../images/coming-soon.jpg);
   height: 200px;
   width: 200px;
@@ -208,7 +216,7 @@ flex-wrap: wrap;
     padding-right: 0;
   }
 
-  aside {
+  article {
     width: 100%;
     text-align: center;
   }

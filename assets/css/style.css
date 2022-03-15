@@ -191,16 +191,6 @@ flex-wrap: wrap;
   color: #40553F
 }
 
-.Project:hover {
-  position:relative;
-  top:-25px;
-  left:-35px;
-  width:500px;
-  height:auto;
-  display:block;
-  z-index:999;
-}
-
 .Contact-Box {
   text-align: right;
   padding-right: 25px;

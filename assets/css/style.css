@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  width: 100%;
+}
+
 /* Header styling */
 header {
   padding: 20px;
@@ -41,10 +45,20 @@ a {
   text-decoration: none;
 }
 
+.hero-image, .content {
+  width: 100%;
+}
+
+.Info-Box, .Portfolio-Box, .Contact-Box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Main image properties */
 .hero-image {
   height: 850px;
-  width: 100%;
   background-image: url("../images/ATLANTA-SKYLINE.jpg");
   background-size: cover;
   background-position: center;
@@ -80,9 +94,22 @@ a {
     #40553F 0%,
     #E7D6E8 100%
   );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.content .Info-Box {
+.Portfolio-Box, .Contact-Box {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Project.Lead {
+  
+}
+
+/* .content .Info-Box {
   padding: 45px;
   text-align: center;
 }
@@ -95,9 +122,9 @@ a {
 .Info-Box p {
   font-size: 22px;
   padding-bottom: 25px;
-}
+} */
 
-.Portfolio-Box {
+/* .Portfolio-Box {
   margin-left: 10%;
   padding-bottom: 25px;
 }
@@ -158,7 +185,7 @@ flex-wrap: wrap;
   padding-top: 24px;
 }
 
-#Old-Project-1 {
+#oldProject1 {
   background-image: url(../images/coming-soon.jpg);
   width: 300px;
   background-size: cover;
@@ -166,13 +193,13 @@ flex-wrap: wrap;
   position: relative;
 }
 
-#Old-Project-2 {
+#oldProject2 {
   background-image: url(../images/coming-soon.jpg);
   height: 200px;
   width: 200px;
 }
 
-#Old-Project-3 {
+#oldProject3 {
   background-image: url(../images/coming-soon.jpg);
   height: 200px;
   width: 200px;
@@ -189,7 +216,7 @@ flex-wrap: wrap;
   font-size: 20px;
   background-color:#E7D6E8;
   color: #40553F
-}
+} */
 
 .Contact-Box {
   text-align: right;

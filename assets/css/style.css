@@ -108,6 +108,7 @@ padding-top: 10%;
 position: relative;
 display: flex;
 justify-content: flex-end;
+flex-wrap: wrap;
 }
 
 .Portfolio-Box #Lead-Project {
@@ -127,23 +128,31 @@ justify-content: flex-end;
   position: absolute;
   font-size: 35px;
   background-color:#E7D6E8;
-  color: #40553F
+  color: #40553F;
+  border-right: #E7D6E8;
 }
 
 .Project {
   float: right
 }
 
+.Old-Project {
+  display: flex;
+  justify-content: space-evenly;  
+  flex-wrap: wrap;
+  padding-top: 16px;
+}
+
 #Old-Project-1 {
   background-image: url(../images/coming-soon.jpg);
-  height: 500px;
-  width: 500px;
+  background-size: cover;
+  height: 300px;
 }
 
 #Old-Project-2 {
   background-image: url(../images/coming-soon.jpg);
-  height: 500px;
-  width: 500px;
+  height: 200px;
+  width: 200px;
 }
 
 .Portfolio-Box h5 {
@@ -182,3 +191,17 @@ justify-content: flex-end;
   font-size: 18px;
 }
 
+@media screen and (max-width: 768px) {
+  header, main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+}

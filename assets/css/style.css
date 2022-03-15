@@ -98,10 +98,18 @@ a {
   padding-bottom: 25px;
 }
 
+.Portfolio-Box .border {
+  border: 3px solid#E7D6E8;
+
+}
+
 .Portfolio-Box h2 {
 position: absolute;
+border-right: 3px solid#E7D6E8;
 font-size: 40px;
 padding-top: 10%;
+padding-right: 20px;
+padding-bottom: 300px;
 }
 
 .Portfolio-Box section {
@@ -129,24 +137,24 @@ flex-wrap: wrap;
   font-size: 35px;
   background-color:#E7D6E8;
   color: #40553F;
-  border-right: #E7D6E8;
 }
 
 .Project {
   float: right
 }
 
-.Old-Project {
+#Old-Project {
   display: flex;
   justify-content: space-evenly;  
   flex-wrap: wrap;
-  padding-top: 16px;
+  padding-top: 24px;
 }
 
-#Old-Project-1 {
+.Old-Project {
   background-image: url(../images/coming-soon.jpg);
+  width: 300px;
   background-size: cover;
-  height: 300px;
+  background-position: center
 }
 
 #Old-Project-2 {

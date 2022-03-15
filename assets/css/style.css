@@ -12,12 +12,18 @@ ul {
   list-style-type: none;
 }
 
+/* .outline {
+  border: 5px red dashed;
+} */
+
 /* Header styling */
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #40553F;
   color: #E7D6E8;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Navigation alignment */
@@ -28,7 +34,6 @@ header h3 {
 /* Navigation font and positioning */
 header nav {
   margin-right: 20px;
-  float: right;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
@@ -53,11 +58,11 @@ a {
   width: 100%;
 }
 
-.Info-Box, .Portfolio-Box, .Contact-Box {
-  width: 100%;
+.Portfolio-Box, .Contact-Box {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* Main image properties */
@@ -104,15 +109,35 @@ a {
   align-items: center;
 }
 
+.Info-Box  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+
 .Portfolio-Box, .Contact-Box {
   /* flex-direction: row; */
   /* justify-content: space-between; */
 }
 
-.project-container {
+.portfolio-container {
+  width: 100%;
+}
+
+/* .project-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 100%;  
+} */
+
+.Portfolio-Box h2 {
+  width: 200px;
+  font-size: 28px;
+  border-right: solid 5px black;
+  margin-right: 10px;
 }
 
 /* .Project {
@@ -123,6 +148,7 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: 100%;
 }
 
 .Project {
@@ -137,8 +163,70 @@ a {
 }
 
 .Project.Old {
-  height: 150px;
   background-image: url(../images/coming-soon.jpg);
+  width: 100%;
+  height: 150px;
+  margin: 10px;
+}
+
+.Lead, .Old {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#Lead-Project h3  {
+  background-color: rgba(0, 0, 0, 0.822);
+  font-size: 30px;
+  width: 10%;
+  margin-bottom: 80px;
+}
+
+.Project.Old h5 {
+  background-color: rgba(0, 0, 0, 0.822);
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.Contact-Box h2 {
+  width: 180px;
+  font-size: 28px;
+  border-right: solid 5px black;
+}
+
+.Contact-Box ul {
+  text-align: right;
+}
+
+/* Footer box and font format */
+.footer {
+  padding: 20px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-color:#E7D6E8;
+  color: #40553F
+  ;
+}
+
+/* Footer font size */
+.footer h2 {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  header, main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  article {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* .content .Info-Box {
@@ -250,41 +338,11 @@ flex-wrap: wrap;
   color: #40553F
 } */
 
-.Contact-Box {
+/* .Contact-Box {
   text-align: right;
   padding-right: 25px;
   padding-bottom: 25px;
   padding-top: 30px;
   color: #40553F;
-}
+} */
 
-/* Footer box and font format */
-.footer {
-  padding: 20px;
-  clear: both;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
-  background-color:#E7D6E8;
-  color: #40553F
-  ;
-}
-
-/* Footer font size */
-.footer h2 {
-  font-size: 18px;
-}
-
-@media screen and (max-width: 768px) {
-  header, main {
-    flex-direction: column;
-  }
-
-  section {
-    padding-right: 0;
-  }
-
-  article {
-    width: 100%;
-    text-align: center;
-  }
-}
